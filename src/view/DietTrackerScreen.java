@@ -2,9 +2,11 @@ package view;
 import controller.DietManager;
 
 import javax.swing.*;
-import java.awt.*;
+import javax.swing.*;
 
 public class DietTrackerScreen {
+
+    public DietTrackerScreen() {}
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Diet Tracker");
